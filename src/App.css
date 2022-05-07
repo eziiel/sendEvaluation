@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #141519;
+  font-family: 'Fira Sans', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+ul,li,a,h1,h2{ 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}

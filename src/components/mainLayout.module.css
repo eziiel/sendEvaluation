@@ -1,0 +1,68 @@
+.mainSection {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(ellipse at top,#303646,#171e28);
+  border-radius: 20px;
+  box-shadow: 0 0 2px #1e252f;
+  transform: translateX(-30px);
+  opacity: 0;
+  animation: animaLeft .5s forwards;
+}
+
+@keyframes animaLeft {
+  to{
+    transform: initial;
+    opacity: initial;
+  }
+}
+.content {
+  padding: 3rem;
+}
+.iconStar{
+  padding: .5rem;
+  font-size: .875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContent{
+  padding: 2rem 0;
+  color: #fff;
+}
+.mainContent h1 {
+  font-size: 2rem;
+}
+.mainContent p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.contentSub {
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  gap: 1rem;
+}
+.btnSub{
+  width: 100%;
+  padding: 1rem 10rem;
+  border-radius: 40px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+  background: #FC7614;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  align-self: center;
+}
+.btn:hover {
+  background-color: #FC7614;
+}

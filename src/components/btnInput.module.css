@@ -1,0 +1,20 @@
+.btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(135deg,#2f333d,#1c2f4b);
+  background-color: #363e50;
+  color: #b3b3b3;
+  font-size: 1.250rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover{
+  color: #fff;
+  background:#FC7614;
+}
+.btn:active{
+  color: #fff;
+  background:#FC7614;
+}

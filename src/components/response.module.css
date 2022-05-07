@@ -1,0 +1,45 @@
+.resContent {
+  width: 500px;
+  height: 525px;
+  background: radial-gradient(ellipse at top,#303646,#171e28);
+  border-radius: 20px;
+  box-shadow: 0 0 2px #1e252f;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 1fr 50px 1fr;
+  gap: 1rem;
+  padding: 3rem;
+  transform: translateX(-30px);
+  opacity: 0;
+  animation: animaLeft .5s forwards;
+}
+
+@keyframes animaLeft {
+  to{
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+.mainResponse {
+  text-align: center;
+  color: #fff;
+}
+.mainResponse h1{
+  font-size: 2rem;
+  color: #fff;
+}
+.mainResponse p {
+  font-size: 1.125rem;
+  color: #fff;
+}
+.selection {
+  padding: .875rem 2rem;
+  border-radius: 40px;
+  color: #fc8530ee;
+  font-size: 1.125rem;
+  letter-spacing: .5pxre;
+  font-weight: bold;
+  background: #303646;
+}
